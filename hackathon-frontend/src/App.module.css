@@ -1,0 +1,42 @@
+.__wrapper{position: relative;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.video_bg video{width: 100%;}
+
+.overlayContent{position: absolute;top: 50px;z-index: 2;left: 0;right: 0;padding: 10px 180px;}
+
+.o_header{display: flex;justify-content: space-between;align-items: center;}
+
+.o_header img{height: 70px;}
+
+.o_tabs{color: white;display: flex;align-items: center;font-weight: bold;}
+
+.o_tabs p{font-size: 20px;margin-right: 30px;}
+.o_tabs button{padding: 20px;margin-right: 10px;background-color: rgb(175,18,107);border: none; outline: none;color: white;font-weight: bold;}
+.o_tabs button:first-of-type{background-color: rgb(5,168,237);}
+
+.o_body{color: white;margin-top: 200px;text-align: center;}
+.o_body h1{font-size: 60px;}
+.o_body button{padding: 20px 60px;font-size: 30px;color: white;background-color: rgb(5,168,237);outline: none;border: none;margin-top: 60px;}
+
+.bot_logo {padding: 30px;background-color: #AF126B;position: fixed;border-radius: 60px;bottom: 60px;right: 60px;cursor: pointer;z-index: 5;}
+
+.bot_logo img {width: 60px;animation: stuntAnimation 5s infinite;}
+
+@keyframes stuntAnimation {0% { transform: translate(0, 0) rotate(0deg); }10% { transform: translate(-10px, -10px) rotate(-10deg); }20% { transform: translate(10px, -10px) rotate(10deg); }30% { transform: translate(10px, 10px) rotate(20deg); }40% { transform: translate(-10px, 10px) rotate(-20deg); }50% { transform: translate(0, 0) rotate(0deg); }60% { transform: scale(1.2) rotate(360deg); }70% { transform: scale(1) rotate(0deg); }80% { transform: translate(0, -20px) rotate(10deg); }90% { transform: translate(0, 20px) rotate(-10deg); }100% { transform: translate(0, 0) rotate(0deg); }}
+
+
+.video_player{padding: 60px;margin-top:60px;}
+.inner_player{padding: 60px;background-color: rgb(255, 255, 255);border-radius: 20px;display: flex;border:1px solid rgb(255, 255, 255);box-shadow: 10px 10px 2px black;}
+.inner_player video{border-radius: 20px;}
+.chat_room{width: 100%;background-color: rgb(20, 20, 20);margin-left: 60px;border-radius: 20px;padding: 20px 50px;}
+.test_msg{margin-top: 40px;padding: 20px;background-color: #ffffff;display: inline-block;display: flex;width: fit-content;align-items: center;border-radius: 20px;animation: fadeInUp 1s ease-out forwards;opacity: 0;}
+.test_logo{border-radius: 50%;width: 30px;height: 30px;margin-right: 20px;}
+.test_text{color: rgb(255, 255, 255);}
+
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+.video_player h1{text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
